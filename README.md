@@ -123,6 +123,7 @@ python video2csv.py --video {video}.mp4 --output_csv {output_root}
 step2:train
 
 ```
+cd whole_body_tracking
 conda activate beyondmimic
 python scripts/csv_to_npz.py --input_file {your_csvfile}.csv --input_fps 30 --output_name {output_npz_name} --headless
 python scripts/rsl_rl/train.py --task=Tracking-Flat-G1-v0 --motion_file {npz_file}.npz  --run_name {} --headless
