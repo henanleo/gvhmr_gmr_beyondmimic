@@ -4,7 +4,7 @@ This project, in conjunction with [HVGMR](https://github.com/zju3dv/GVHMR), [GMR
 
 # Install
 
-## Step1:video2csv
+## Step1:
 
 ### Environment
 
@@ -56,7 +56,7 @@ inputs/checkpoints/
 # 3 You need to download GMR/assets from https://github.com/YanjieZe/GMR.
 ```
 
-## Step2:train
+## Step2:
 
 ### Environment
 
@@ -123,6 +123,7 @@ python video2csv.py --video {video}.mp4 --output_csv {output_root}
 step2:train
 
 ```
+conda activate beyondmimic
 python scripts/csv_to_npz.py --input_file {your_csvfile}.csv --input_fps 30 --output_name {output_npz_name} --headless
 python scripts/rsl_rl/train.py --task=Tracking-Flat-G1-v0 --motion_file {npz_file}.npz  --run_name {} --headless
 ```
