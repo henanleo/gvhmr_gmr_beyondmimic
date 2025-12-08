@@ -1,0 +1,55 @@
+# Core ML
+torch==2.3
+timm==0.9.12
+
+# 3D Vision
+pytorch3d @ https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu121_pyt230/pytorch3d-0.7.6-cp310-cp310-linux_x86_64.whl
+trimesh
+chumpy
+pycolmap
+wis3d
+smplx @ git+https://github.com/vchoutas/smplx
+
+# Lightning + Hydra
+lightning==2.3.0
+hydra-core==1.3
+hydra-zen
+hydra_colorlog
+rich==13.3.3
+
+# Common utilities
+numpy==1.23.5
+opencv-python==4.8.1.78
+scikit-image
+imageio==2.34.1
+av==13.0.0
+joblib
+matplotlib
+ipdb
+setuptools>=68.0
+black
+tensorboardX
+ffmpeg-python
+termcolor
+einops
+
+# 2D Pose
+ultralytics==8.2.42
+cython_bbox
+lapx
+
+# GMR deps (fixed versions)
+loop_rate_limiters
+mink
+mujoco
+scipy
+qpsolvers[proxqp]
+tqdm
+natsort
+psutil==5.9.5
+protobuf
+redis[hiredis]
+
+# tracking / logging
+onnxscript
+wandb>=0.19
