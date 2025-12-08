@@ -1,6 +1,6 @@
 # gvhmr_gmr_beyondmimic
 
-This project, in conjunction with [HVGMR](https://github.com/zju3dv/GVHMR), [GMR](https://github.com/YanjieZe/GMR), and [Beyondmimic]([HybridRobotics/whole_body_tracking](https://github.com/HybridRobotics/whole_body_tracking)), aims to create a fast robot policy training script. 
+This project, in conjunction with [HVGMR](https://github.com/zju3dv/GVHMR), [GMR](https://github.com/YanjieZe/GMR), and [Beyondmimic](https://github.com/HybridRobotics/whole_body_tracking), aims to create a fast robot policy training script. 
 
 # Install
 
